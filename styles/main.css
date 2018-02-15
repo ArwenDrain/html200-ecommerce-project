@@ -12,6 +12,7 @@ p {
 
 /* TODO: size images manually so this is not necessary */
 img {
+  max-width: 100%;
   max-height: 20rem;
 }
 
@@ -103,7 +104,6 @@ div .item-container {
 }
 
 div img {
-  width: 10rem;
   height: 15rem;
   padding: 1rem;
 }
@@ -111,7 +111,7 @@ div img {
 
 div .box {
   box-sizing: border-box;
-  width: 30%;
+  max-width: 30%;
   height: 32rem;
   border: 1px solid grey;
   float: left;
