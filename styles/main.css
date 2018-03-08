@@ -83,6 +83,7 @@ section {
   float: right;
 }
 
+
 h2 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -101,7 +102,9 @@ h3 {
 
 div .item-container {
   float: right;
+  display: flex;
 }
+
 
 div img {
   height: 15rem;
@@ -125,4 +128,30 @@ div .box {
 }
 .price {
   color: cornflowerblue;
+}
+
+/*media queries*/
+
+@media only screen and (max-width: 450px){
+  ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+  aside {
+    width: 100%;
+    text-align: center;
+  }
+  section {
+    width: 100%;
+  }
+  div .box {
+    max-width: 100%;
+  }
+}
+
+/*add/remove from cart buttons*/
+.addCart {
+  color: mediumblue;
 }
