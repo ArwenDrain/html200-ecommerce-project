@@ -69,4 +69,31 @@ Lesson 09:
 Each weekly assignment will be graded independently. There will not be a final grade for the entire project.
 
 ## Testing
-[update this section with information about the testing steps you took to ensure site quality]
+Through the website audience classification tool I determined the visitors to Winter Wear Warehouse are most likely to be women, ages 18 to 65 with a college education or higher looking to buy scarfs for either fashion or practical purposes. This purchase is likely to be made on a cellphone or tablet during a lunch break or of an evening, however the older the customer there is still a good chance to be purchased on a laptop or desktop. Adults aged 18-29 94 percent own smartphones, while 73 percent of 50-64 year olds own smartphones. Of adults, 75 percent of women own a smartphone. Among all adults, at least 80 percent have some college, make at least $30,000 a year, and liven in urban areas while owning smartphones. So far in 2018 53 percent of adults own a tablet and 73 percent own either a laptop or desktop. In 2016 12 percent of adults do not use broadband at home but owned smartphones and considered smartphone dependent. Between the ages of 18-29 17 percent were smartphone dependent, for ages 30-49 it was 13 percent and 50-64 year olds it was 11 percent. By ethnicity 15 percent Black and 23 percent Hispanic are smartphone dependent. And both men and women sit at 12 percent for smartphone dependency. Adults with an annual income less than $30,000, 21 percent are smartphone dependent, and those with less than high school graduate are 27 percent dependent. Rural has more cellphone dependency at 14 percent, than urban and suburban areas.
+
+Page speed testing on PageSpeed Insights showed optimization scoring a medium for both mobile and desktop, suggesting to optimize images, eliminate render-blocking JavaScript and CSS in above-the-fold content, and leverage browser caching. According to a WebPageTest using Chrome on Desktop, Android and iOS, this webpage scored an A grade for First Byte Time, Keep-alive Enabled, Compress Transfer, as well as a B grade for compressed images and scored an effective use of CDN. Lastly, this page scored and F in Cache static content. The same scores returned for Microsoft Edge. Page load time was fastest on Chrome at 1.597 seconds, on Edge it was 2.203 seconds and Firefox took the longest at 2.440 seconds. Overall most issues with the site appear to be http-caching and the responsive design on medium sized screen with widths between 1366 pixels and 451 pixels. 
+
+Who
+  Age and age groups: Adults, 18-65 (H)
+  Personal life-style: Anyone who wants to dress trendy (L)
+  Gender: Mostly female	(H)
+  Language: Primarily English as first language (L)
+  Education: some college or higher (M)
+  Learning preferences:	Left-brained, practical demonstrations, free-thinker (L)
+  Work attributes: Employee, professional, business owner, homemaker (L)
+  Expectations: Varity, for the product to arrive exactly as described on the website (L)
+  Existing: Fashion forward thinking, probably knowledgeable about some different kinds of fabrics, patterns and color combinations, different styles/ways of wearing scarfs (L)
+  Web and computer experience: Medium to high (H)
+How	
+  On what device they will read it: Phone, tablet, PC (H)
+  Internet connection speed: Fast broadband (M)
+Where	
+  User’s location	: national (L)
+  Place where the page is read: home, at work, on the road, public places (M)
+Why	
+  Why users seek the content: To buy something (H)
+  Importance of the content to them: Fashionable, useful in cold climate (L)
+  How they found the page: Google (L)
+When	
+  When it is read	: Lunch-break, weekends , evening (M)
+
